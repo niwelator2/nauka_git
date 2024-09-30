@@ -32,10 +32,5 @@ int main()
     nauczyciel.imie="Ala";
     nauczyciel.nazwisko="Kowalska";
     nauczyciel.przedmiot="angielski";
-    cout << "Dane nauczyciela 1: " << nauczyciel.zwrocDane() << endl;
-    Nauczyciel nauczyciel2("Adam","Nowak","niemiecki");
-    cout << "Dane nauczyciela 2: " << nauczyciel2.zwrocDane() << endl;
-    Nauczyciel nauczyciel3=Nauczyciel("Jan", "Ostrowski", "polski");
-    cout << "Dane nauczyciela 3: " << nauczyciel3.zwrocDane() << endl;
     return 0;
 }
